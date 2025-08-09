@@ -1,27 +1,26 @@
-# rEFInd Ambience - Deer and Fireflies
+# My totally unique and definitely independent rEFInd theme
 
 ![Screenshot](screenshot.bmp)
 
 ## Installation
 
-1. Locate your rEFInd installation folder (for linux based system is usually mounted at /boot/efi/EFI/refind);
+1. Clone this repo into your home directory:
+`git clone https://github.com/miamoremustachio/refind-schmefind`
 
-2. Create a folder called `themes`, if one doesn't exist already, and cd inside;
+2. Locate your rEFInd installation folder
+_(for linux based system is usually mounted at /boot/efi/EFI/refind)_
 
-3. Clone this repo using `git clone https://github.com/jpmvferreira/refind-ambience-deer-and-fireflies`;
+3. Create a folder called `themes` (if doesn't exist already) and move the cloned repo into it:
+`sudo mv refind-schmefind /boot/efi/EFI/refind/themes/`
 
-4. Add the line `include themes/refind-ambience-deer-and-fireflies/theme.conf` to `refind.conf` at the end of the config file.
+4. Add the line `include themes/refind-schmefind/theme.conf` at the end of the `refind.conf` file.
 
 ## Credits
 
-This theme was forked from [rEFInd-ambience](https://github.com/lukechilds/refind-ambience), where small modifications to the Windows logo were made.
-
-Selection big icon was adapted from [rEFInd-minimal](https://github.com/EvanPurkhiser/rEFInd-minimal).
+This theme is a fork of [rEFInd Ambience - Deer and Fireflies](https://github.com/jpmvferreira/refind-ambience-deer-and-fireflies) by [jpmvferreira](https://github.com/jpmvferreira) with negligible config changes.
 
 Wallpaper belongs to [Muhammad Nafay at artstation](https://www.artstation.com/artwork/xgrb2)
 
 ## License
 
-All of contents present in this repository which I have developed are licensed under the MIT license.
-
-For content which is external and not a product of my work, refer to the corresponding source for more information.
+All of contents present in this repository are licensed under the MIT license.
