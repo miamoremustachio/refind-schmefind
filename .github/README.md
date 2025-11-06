@@ -4,16 +4,22 @@
 
 ## Installation
 
-1. Clone this repo into your home directory:
-`git clone https://github.com/miamoremustachio/refind-schmefind`
+1. Locate your rEFInd directory:
+```bash
+cd /boot/efi/EFI/refind # for most linux based systems
+```
 
-2. Locate your rEFInd installation folder
-_(for linux based system is usually mounted at /boot/efi/EFI/refind)_
+2. Create the `themes` subdirectory and clone this repo to it:
+```bash
+sudo mkdir themes
+cd themes
+git clone https://github.com/miamoremustachio/refind-schmefind.git
+```
 
-3. Create a folder called `themes` (if doesn't exist already) and move the cloned repo into it:
-`sudo mv refind-schmefind /boot/efi/EFI/refind/themes/`
-
-4. Add the line `include themes/refind-schmefind/theme.conf` at the end of the `refind.conf` file.
+3. Add the following line at the end of the `refind.conf` file:
+```bash
+include themes/refind-schmefind/theme.conf
+```
 
 ## Credits
 
