@@ -1,32 +1,34 @@
-# My totally unique and definitely independent rEFInd theme
+# <p align="center"> <b> :leaves: kEFInd :leaves: </b> </p>
+### <p align="center"> <i> Minimalistic rEFInd theme </i> </p>
 
 ![Screenshot](screenshot.bmp)
 
-## Installation
+> [!NOTE]
+> This project is a fork of [rEFInd Ambience - Deer and Fireflies](https://github.com/jpmvferreira/refind-ambience-deer-and-fireflies) by [jpmvferreira](https://github.com/jpmvferreira)
+
+## :hammer_and_wrench: Installation
 
 1. Locate your rEFInd directory:
 ```bash
-cd /boot/efi/EFI/refind # for most linux based systems
+cd /boot/efi/EFI/refind # for most distros
 ```
 
-2. Create the `themes` subdirectory and clone this repo to it:
+2. Clone this repo to the `themes` subdirectory:
 ```bash
 sudo mkdir themes
 cd themes
-git clone https://github.com/miamoremustachio/refind-schmefind.git
+git clone https://github.com/kexiku/kefind.git
 ```
 
-3. Add the following line at the end of the `refind.conf` file:
+3. Add the following line at the end of `refind.conf` file:
 ```bash
-include themes/refind-schmefind/theme.conf
+include themes/kefind/theme.conf
 ```
 
-## Credits
+## :black_nib: Credits
 
-This theme is a fork of [rEFInd Ambience - Deer and Fireflies](https://github.com/jpmvferreira/refind-ambience-deer-and-fireflies) by [jpmvferreira](https://github.com/jpmvferreira) with negligible config changes.
+Wallpaper belongs to [Muhammad Nafay](https://www.artstation.com/artwork/xgrb2)
 
-Wallpaper belongs to [Muhammad Nafay at artstation](https://www.artstation.com/artwork/xgrb2)
+## :scroll: Licensing
 
-## License
-
-All of contents present in this repository are licensed under the MIT license.
+This repository and its upstream are licensed under the MIT license
